@@ -1,4 +1,6 @@
 import baraja
 
-b1 = baraja.crea_baraja()
-b2 = baraja.crea_baraja()
+b = baraja.crea_baraja()
+manos = baraja.repartir(b, 3, 5)
+
+print(manos)
